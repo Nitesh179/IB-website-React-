@@ -1,0 +1,23 @@
+{
+  "name": "ibr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sendEmail.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeerajOon/ibr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeerajOon/ibr/issues"
+  },
+  "homepage": "https://github.com/NeerajOon/ibr#readme",
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="open" class="slider">
+        hello Ji java Script...
+    </div>
+
+    <div id="open" class="slider">
+        hello Ji java Script dusra wala...
+    </div>
+
+    <button onclick="func()">Click</button>
+
+    <script>
+        function func(){
+            val=document.getElementById('open').className;
+            val1=val.innerHTML=val+' open';
+           console.log(val1);
+            // val = document.getElementsByClassName('slider')[0].innerHTML="slider open";
+            // console.log("=> ",val);
+        }
+      
+    </script>
+</body>
+</html>
